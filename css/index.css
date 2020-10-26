@@ -6,7 +6,7 @@
 html{
     font-family: sans-serif;
     font-size: 1rem;
-    background-color: rgb(167, 76, 76);
+    background-image: url(../img/desktop/fondo.png);
 
 }
 
@@ -95,6 +95,7 @@ a{
 
 .parte__centralnumber{
     font-size: 1.1rem;
+    color: white;
 }
 
 .textoizq__titulo{
@@ -107,16 +108,24 @@ li{
 
 .parte__centraltexto{
     font-size: 5rem;
+    color: white;
+    
 }
 
 h5{
     padding: 0 0 0 40px;
+    color: white;
     
 }
 
-.parte__centralabajo{
+.parte__centralpalabra{
     padding: 0 0 0 40px;
+    color: white;
 
+}
+
+.parte__centralflecha{
+    color: white;
 }
 
 .footer{
@@ -125,6 +134,10 @@ h5{
     grid-template-rows: 200px;
 
 
+}
+
+.footer__number{
+    color: black;
 }
 
 .footer__2ndcolumn{
@@ -165,11 +178,17 @@ h5{
     grid-column: 5/5;
     
 
-    color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    
+    font-size: 1.5rem;
+}
 
+.footer__flechaizq{
+    color: black;
+}
+
+.footer__flechader{
+    color: black;
 }
